@@ -8,12 +8,3 @@ def group_by(keys, values):
         else :
             result[keys[i]] = values[i]
     return result
-
-def main():
-    keys = ['A', 'A', 'B', 'C', 'A', 'C', 'B']
-    values = [2, 4, 8, 9, 5, 3, 1]
-    print(group_by(keys, values))
-
-if __name__ == '__main__':
-    main()
-    
